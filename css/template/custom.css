@@ -1,0 +1,29 @@
+/* Add here all your css styles (customizations) */
+#main {
+
+	width: 100%;
+	height: auto;
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	margin-top: 5px;
+}
+
+#main #r_graphs{
+	-webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 75%; /* Safari 6.1+ */
+    flex-grow: 0%;
+    flex-shrink: 0;
+    flex-basis: 75%;
+}
+
+#main #r_graphs:nth-of-type(2) {
+	-webkit-flex-basis: 25%; /* Safari 6.1+ */
+    flex-basis: 25%; 
+
+}
+
+.title {
+    margin: 0 auto;
+    border-bottom: 1px solid lightgrey;
+}
